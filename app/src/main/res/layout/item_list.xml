@@ -22,14 +22,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/Title"
-            android:text="Dogie"/>
+            android:text="Doggie"/>
 
         <TextView
-            android:id="@+id/status"
+            android:id="@+id/category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/SubTitle"
-            android:text="Disponible"/>
+            android:text="Unknown"/>
 
 
     </LinearLayout>

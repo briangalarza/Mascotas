@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Pets</string>
     <string name="error_message">An error has occurred, try again later.</string>
+    <string name="title_activity_details">Details</string>
+    <string name="photo">Photo</string>
+    <string name="details">Details</string>
+    <string name="title_activity_pet">Pet</string>
 </resources>

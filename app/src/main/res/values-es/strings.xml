@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">Mascotas</string>
     <string name="error_message">Ha ocurrido un error, por favor intente nuevamente</string>
+    <string name="title_activity_details">Details</string>
+    <string name="photo">Foto</string>
+    <string name="details">Detalles</string>
+    <string name="title_activity_pet">Mascota</string>
 </resources>

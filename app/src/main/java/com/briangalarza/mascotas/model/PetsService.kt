@@ -10,7 +10,7 @@ class PetsService {
 
     private val BASE_URL = "https://petstore.swagger.io/v2/"
 
-    lateinit var  api:PetsApi
+    private var  api:PetsApi
 
     init {
         api= Retrofit.Builder()
@@ -25,4 +25,10 @@ class PetsService {
     fun getPets(): Single<List<Pet>> {
         return api.getPets()
     }
+
+    //Obtenemos la informacion de la mascota
+    fun getPetByID(id:Long?): Single<Pet> {
+        return api.getPetById(id)
+    }
+
 }
