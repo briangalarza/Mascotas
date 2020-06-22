@@ -1,4 +1,4 @@
-package com.briangalarza.mascotas.view
+package com.briangalarza.mascotas.view.tab
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

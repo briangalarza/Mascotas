@@ -6,6 +6,8 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.briangalarza.mascotas.R
 import com.briangalarza.mascotas.model.Pet
+import com.briangalarza.mascotas.view.tab.fragmentDetails.DetailsFragment
+import com.briangalarza.mascotas.view.tab.fragmentPhoto.PhotoFragment
 
 
 private val TAB_TITLES = arrayOf(
@@ -25,7 +27,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager, va
         // Return a PlaceholderFragment (defined as a static inner class below).
         when (position){
             0 -> return PhotoFragment.newInstance(pet)
-            1 -> return PhotoFragment.newInstance(pet)
+            1 -> return DetailsFragment.newInstance(pet)
             else -> return PhotoFragment.newInstance(pet)
         }
 

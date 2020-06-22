@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.Pet"
+            android:name=".view.tab.Pet"
             android:label="@string/title_activity_pet"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity

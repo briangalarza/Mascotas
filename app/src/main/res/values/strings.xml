@@ -5,4 +5,8 @@
     <string name="photo">Photo</string>
     <string name="details">Details</string>
     <string name="title_activity_pet">Pet</string>
+    <string name="name">Name</string>
+    <string name="defaultName">Doggie</string>
+    <string name="status">Status</string>
+    <string name="category">Category</string>
 </resources>

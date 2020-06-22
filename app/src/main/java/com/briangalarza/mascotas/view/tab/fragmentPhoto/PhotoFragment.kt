@@ -1,4 +1,4 @@
-package com.briangalarza.mascotas.view.tab
+package com.briangalarza.mascotas.view.tab.fragmentPhoto
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,7 +13,7 @@ import com.briangalarza.mascotas.util.loadImage
 
 
 /**
- * A placeholder fragment containing a simple view.
+ * Fragment para mostrar el tab de la foto y el nombre
  */
 class PhotoFragment : Fragment() {
 
@@ -31,7 +31,7 @@ class PhotoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val root = inflater.inflate(R.layout.fragment_pet, container, false)
+        val root = inflater.inflate(R.layout.fragment_photo, container, false)
 
         val textViewTitle = root.findViewById<View>(R.id.name) as TextView
         val imageView = root.findViewById<View>(R.id.imageView) as ImageView
@@ -62,7 +62,8 @@ class PhotoFragment : Fragment() {
          */
         @JvmStatic
         fun newInstance(pet: Pet): PhotoFragment {
-            return PhotoFragment().apply {
+            return PhotoFragment()
+                .apply {
                 arguments = Bundle().apply {
                     putParcelable(BUNDLE_ITEM, pet)
                 }
